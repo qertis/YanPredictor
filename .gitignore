@@ -1,0 +1,13 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+.idea/
+node_modules/
+dist/
+.cache
+
+# TypeScript cache
+*.tsbuildinfo

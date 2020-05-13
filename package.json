@@ -1,0 +1,33 @@
+{
+  "name": "yan-predictor",
+  "version": "1.0.0",
+  "description": "yandex predictor",
+  "main": "dist/index",
+  "typings": "dist/index",
+  "directories": {
+    "lib": "src"
+  },
+  "keywords": [
+    "predictor text", "yandex predictor javascript api", "NLP"
+  ],
+  "dependencies": {},
+  "engines": {
+    "node": ">=12.x"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.1",
+    "typescript": "^3.9.2"
+  },
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc --project tsconfig.json"
+  },
+  "author": "qertis",
+  "license": "MIT",
+  "files": [
+    "dist/index.d.ts",
+    "dist/index.js",
+    "dist/request.d.ts",
+    "dist/request.js"
+  ]
+}
